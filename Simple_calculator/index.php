@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="" method="post">
+<form action="simple_calculator.php" method="post">
     <h1>Simple Calculator</h1>
     <fieldset>
         <legend>Calculator</legend>
@@ -22,11 +22,11 @@
             <tr>
                 <td>Operator:</td>
                 <td>
-                    <select>
+                    <select name="operator">
                         <option value="+">Addition</option>
                         <option value="-">Minus</option>
                         <option value="/">Division</option>
-                        <option value="*">Multiply</option>
+                        <option  value="*">Multiply</option>
                     </select>
                 </td>
             </tr>
