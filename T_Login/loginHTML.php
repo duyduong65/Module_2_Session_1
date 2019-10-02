@@ -8,17 +8,20 @@
     <title>Document</title>
 </head>
 <body>
-<form>
+<?php include "loginPHP.php" ?>
+<form method="post" action="">
     <table border="1px">
-        <td><h2>Login</h2></td>
+        <th><h1 style="color: red">Login</h1></th>
         <tr>
-            <td>
-                <input name="id" type="text">
+            <td style="text-align: right">
+                ID: <input name="id" type="text" value="<?php echo $id ?>"><br>
+                <span style="color: red" class=" error">* <?php echo $idErr; ?></span>
             </td>
         </tr>
         <tr>
-            <td>
-                <input name="password" type="text">
+            <td style="text-align: right">
+                Password: <input name="password" type="password" value="<?php echo $password ?>"><br>
+                <span style="color: red" class=" error">* <?php echo $passwordErr; ?></span>
             </td>
         </tr>
         <tr>
