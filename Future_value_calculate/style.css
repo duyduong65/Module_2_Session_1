@@ -1,0 +1,10 @@
+table {
+    border: solid 1px   ;
+    text-align: center;
+}
+th{
+    color: blue;
+}
+td,tr {
+    text-align: left;
+}
