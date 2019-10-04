@@ -28,5 +28,5 @@ foreach ($customer as $key => $values) {
     echo "<td>" . $values["ten"] . "</td>";
     echo "<td>" . $values['ngaysinh'] . "</td>";
     echo "<td>" . $values['diachi'] . "</td>";
-    echo "<td><img src='" . $values['anh'] . "' width='80 px' height='80 px'></td>";
+    echo "<td><images src='" . $values['anh'] . "' width='80 px' height='80 px'></td>";
 }
