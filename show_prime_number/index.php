@@ -19,4 +19,16 @@ for ($j = 0; $j < 100; $j++) {
         echo "$j   ";
     }
 }
+$count = 0;
+$dem = 0;
+while ($count < 10) {
+    if (checkNum($dem)) {
+        echo "<br> $dem   ";
+        ++$count;
+    }
+    $dem++;
+}
+
+
+
 
